@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanket TestNG suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name=" my testng pactise test(failed)">
+    <classes>
+      <class name="TestNGSessions.DependOnMethod">
+        <methods>
+          <include name="loginTest"/>
+          <include name="SearchTest"/>
+          <include name="homepageTestTest"/>
+        </methods>
+      </class> <!-- TestNGSessions.DependOnMethod -->
+    </classes>
+  </test> <!--  my testng pactise test(failed) -->
+</suite> <!-- Failed suite [Sanket TestNG suite] -->
